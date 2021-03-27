@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- application themenya cuk. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize theme lu disini yee. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+    </style>
+
+    <declare-styleable name="BgColor" >
+        <attr name="backgroundColor" format="color"/>
+        <attr name="itemFillColor" format="color"/>
+        <attr name="rotate" format="boolean"/>
+    </declare-styleable>
+</resources>
